@@ -1,0 +1,13 @@
+@charset "UTF-8";
+main{
+    min-height: 700px;
+    padding: 20px;
+}
+.tabs{
+    background-color: blue;
+}
+.box{
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}

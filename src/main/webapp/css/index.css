@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+body {
+	background-color: rgba(0, 0, 0, 0.877);
+}
+
+main {
+	margin-bottom: 50px;
+}
+
+.banner {
+	width: 90%;
+	margin: auto;
+}
+
+.nen {
+	background-color: rgb(16, 15, 15);
+	padding-bottom: 40px;
+}
+
+.video {
+	margin-bottom: 50px;;
+}
+
+.card-body {
+	background-color: black;
+	color: white;
+	border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.card-footer {
+	background-color: black;
+	color: white;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	padding-bottom: 20px;
+}
+
+.card>a>img {
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	width: 100%;
+}
+
+.like {
+	/* background-color: rgba(200, 236, 254, 0.574); */
+	background-color: white;
+}
+
+.share {
+	/* background-color: rgb(248, 168, 78); */
+	background-color: white;
+}
+
+.btn-group>button:hover {
+	background-color: rgb(97, 254, 254);
+}
+
+.btn-group>a>button>img {
+	height: 18px;
+}
+
+.page {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
+
+.tm-paging>a {
+	margin: 0 5px;
+}

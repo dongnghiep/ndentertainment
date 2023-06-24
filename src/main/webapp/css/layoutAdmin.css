@@ -1,0 +1,43 @@
+@charset "UTF-8";
+article{
+    float: left;
+    width: 20%;
+    height: 745px;
+}
+.menu>div>a.nav-link{
+    color: white;
+    border-radius: 5px;
+    padding-top: 15px;
+}
+.menu>div>a.nav-link:hover{
+    background-color: rgb(67, 83, 83);
+}
+.menu>div>a.nav-link:active{
+    background-color: rgb(67, 83, 83);
+}
+.menu>div>a.nav-link>img{
+    height: 20px;
+    margin-bottom: 12px;
+    margin-right: 6px;
+}
+.menu>div>a>img{
+    height: 30px;
+}
+.menuAdmin>a{
+	margin: 5px 0;
+}
+aside{
+    float: right;
+    width: 80%;
+}
+.account{
+    float: right;
+    min-width: 100px;
+    /* background-color: aqua; */
+}
+.tabs{
+    height: 680px;
+    padding: 0 20px;
+    /* background-color: rgb(248, 211, 247); */
+    overflow: auto;
+}

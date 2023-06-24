@@ -269,7 +269,7 @@ public class appServlet extends HttpServlet {
 			Session session = Session.getInstance(props, new Authenticator() {
 				protected PasswordAuthentication getPasswordAuthentication() {
 					String username = "vonghiep401@gmail.com";
-					String password = "hqmiavmzejvcmifr";
+					String password = "password";
 					return new PasswordAuthentication(username, password);
 
 				}
